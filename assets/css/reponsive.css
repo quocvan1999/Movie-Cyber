@@ -1,0 +1,44 @@
+/* MÁY TÍNH BẢNG LOẠI NHỎ */
+@media (max-width: 991px) {
+
+    .footer__top>div p {
+        font-size: 0.8rem;
+    }
+
+    .navbar-nav {
+        background: black;
+        opacity: 0.9;
+    }
+
+    .header .nav-itemActive::after {
+        display: none !important;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 430px) {
+    .navbar-brand img {
+        width: 70%;
+    }
+
+    .carousel-indicators {
+        bottom: 5% !important;
+    }
+
+    .calendar .nav-pills {
+        flex-direction: column;
+    }
+
+    .times__container {
+        flex-direction: column;
+    }
+
+    .times__container>div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .times__container>div span:nth-child(2) {
+        margin: 20px 0;
+    }
+}
